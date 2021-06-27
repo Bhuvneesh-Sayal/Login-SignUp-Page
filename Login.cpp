@@ -147,8 +147,8 @@ void forgot(){
             searchp.close();
             if(exi==1){
             cout<<"Congo! Your account found!\n";
-            cout<<"Your Username is: \n"<<su2;
-            cout<<"Your Password is: "<<sp2;
+            cout<<"Your Username is: "<<su2;
+            cout<<"\nYour Password is: "<<sp2;
             cin.get();
             cin.get();
             main();
